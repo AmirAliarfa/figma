@@ -1,0 +1,697 @@
+/* start css app */
+div.appsection {
+  width: 100%;
+  padding: 100px 78px;
+  box-sizing: border-box; }
+  div.appsection div.app {
+    width: 100%; }
+    div.appsection div.app div:nth-of-type(1) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 5px; }
+      div.appsection div.app div:nth-of-type(1) span {
+        color: #023047;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%; }
+    div.appsection div.app div:nth-of-type(2) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 27px; }
+      div.appsection div.app div:nth-of-type(2) span {
+        color: #023047;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%; }
+    div.appsection div.app div.downlod {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      gap: 30px; }
+      div.appsection div.app div.downlod div.apple {
+        all: unset;
+        padding: 20px 31px;
+        box-sizing: border-box;
+        background-color: black;
+        width: 310px;
+        height: 100px;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 14px; }
+        div.appsection div.app div.downlod div.apple div:nth-of-type(1) {
+          all: unset; }
+        div.appsection div.app div.downlod div.apple div:nth-of-type(2) {
+          all: unset;
+          color: #fff;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 250%; }
+      div.appsection div.app div.downlod div.samsung {
+        padding: 20px 31px;
+        box-sizing: border-box;
+        background-color: black;
+        width: 310px;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 14px;
+        height: 100px; }
+        div.appsection div.app div.downlod div.samsung div:nth-of-type(1) {
+          all: unset; }
+        div.appsection div.app div.downlod div.samsung div:nth-of-type(2) {
+          color: #fff;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 250%; }
+
+/* end css app */
+/* start css ps4 */
+div.ps4 {
+  width: 100%;
+  height: 1223px;
+  background-image: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%); }
+  div.ps4 div.name {
+    width: 100%;
+    padding: 70px 155px 66px 153px;
+    box-sizing: border-box; }
+    div.ps4 div.name p {
+      color: #fff;
+      text-align: center;
+      font-family: Raleway;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 120%; }
+  div.ps4 div.game {
+    width: 100%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 80px; }
+    div.ps4 div.game div.chap {
+      width: 632px;
+      border-radius: 24px;
+      background-color: #fff;
+      position: relative;
+      overflow: hidden; }
+      div.ps4 div.game div.chap div.img {
+        width: 100%;
+        height: 260px;
+        position: relative; }
+        div.ps4 div.game div.chap div.img img {
+          box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+          width: 100%;
+          height: 100%;
+          position: relative;
+          object-fit: cover; }
+      div.ps4 div.game div.chap div.text {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 16px; }
+        div.ps4 div.game div.chap div.text span:nth-of-type(1) {
+          color: #023047;
+          font-family: Raleway;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 150%; }
+        div.ps4 div.game div.chap div.text span:nth-of-type(2) {
+          color: #023047;
+          font-family: Raleway;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 550%; }
+          div.ps4 div.game div.chap div.text span:nth-of-type(2) img {
+            width: 20px;
+            height: 20px; }
+      div.ps4 div.game div.chap div.khat {
+        left: calc(50% - 80% / 2);
+        width: 80%;
+        height: 8px;
+        position: absolute;
+        bottom: 0px;
+        background-color: black; }
+    div.ps4 div.game div.rast {
+      width: 632px;
+      border-radius: 24px;
+      background-color: #fff;
+      position: relative;
+      overflow: hidden; }
+      div.ps4 div.game div.rast div.img {
+        width: 100%;
+        height: 260px;
+        text-align: center;
+        position: relative; }
+        div.ps4 div.game div.rast div.img img {
+          width: 100%;
+          object-fit: cover;
+          height: 100%;
+          position: relative; }
+      div.ps4 div.game div.rast div.text {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 16px;
+        padding: 0px 32px 30px 32px;
+        box-sizing: border-box; }
+        div.ps4 div.game div.rast div.text span:nth-of-type(1) {
+          color: #023047;
+          font-family: Raleway;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 150%; }
+        div.ps4 div.game div.rast div.text span:nth-of-type(2) {
+          color: #023047;
+          font-family: Raleway;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 900; }
+          div.ps4 div.game div.rast div.text span:nth-of-type(2) img {
+            width: 20px;
+            height: 20px; }
+      div.ps4 div.game div.rast div.khat {
+        left: calc(50% - 80% / 2);
+        width: 80%;
+        height: 8px;
+        position: absolute;
+        bottom: 0px;
+        background-color: black; }
+  div.ps4 div.butom {
+    width: 90%;
+    text-align: right;
+    margin-top: 50px; }
+    div.ps4 div.butom button {
+      padding: 12px 32px;
+      box-sizing: border-box;
+      background-color: var(--bgcolor_orange);
+      border: unset;
+      border-radius: 24px;
+      color: #fff;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal; }
+
+/* end css ps4 */
+/* start css container */
+div.container {
+  width: 100%;
+  height: 968px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 100px;
+  box-sizing: border-box;
+  position: relative; }
+  div.container div.chap {
+    position: absolute;
+    width: 100%;
+    position: relative;
+    z-index: 20;
+    top: 100px;
+    left: 0; }
+    div.container div.chap div.khat {
+      width: 28px;
+      height: 500px;
+      background-color: var(--bgcolor_blue2);
+      border-radius: 24px;
+      position: absolute;
+      left: 87px;
+      top: 100px;
+      z-index: 1; }
+    div.container div.chap div.women {
+      width: 100%;
+      height: 195px;
+      border-radius: 24px;
+      position: absolute;
+      z-index: 2;
+      top: 125px;
+      left: 0px;
+      background-color: #fff;
+      box-shadow: 1px 1px 25px #023047; }
+      div.container div.chap div.women div.top {
+        padding: 24px 32px;
+        box-sizing: border-box;
+        background-color: var(--bgcolor_violet);
+        border-radius: 24px; }
+        div.container div.chap div.women div.top p {
+          color: #fff;
+          font-family: Raleway;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 150%; }
+      div.container div.chap div.women div.bottom {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 106px;
+        padding: 0px 32px;
+        box-sizing: border-box;
+        position: relative;
+        top: 20px; }
+        div.container div.chap div.women div.bottom div:nth-of-type(1) {
+          display: flex;
+          width: 45%;
+          flex-flow: column nowrap;
+          align-items: flex-start; }
+          div.container div.chap div.women div.bottom div:nth-of-type(1) p:nth-of-type(1) {
+            color: #023047;
+            font-family: Raleway;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 120%; }
+          div.container div.chap div.women div.bottom div:nth-of-type(1) p:nth-of-type(2) {
+            color: #023047;
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            margin-top: 8px; }
+        div.container div.chap div.women div.bottom div:nth-of-type(2) {
+          position: relative; }
+          div.container div.chap div.women div.bottom div:nth-of-type(2) img {
+            top: -50px;
+            position: absolute; }
+    div.container div.chap div.men {
+      width: 100%;
+      height: 195px;
+      border-radius: 24px;
+      position: absolute;
+      left: 0px;
+      top: 380px;
+      box-shadow: 1px 1px 25px #023047;
+      background-color: #fff;
+      z-index: 2; }
+      div.container div.chap div.men div.top {
+        width: 100%;
+        padding: 24px 32px;
+        box-sizing: border-box;
+        background-color: var(--bgcolor_orange);
+        border-radius: 24px; }
+        div.container div.chap div.men div.top p {
+          color: #fff;
+          font-family: Raleway;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 150%; }
+      div.container div.chap div.men div.bottom {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 250px;
+        position: relative;
+        height: 50%; }
+        div.container div.chap div.men div.bottom div:nth-of-type(1) {
+          display: flex;
+          flex-flow: column wrap;
+          position: relative;
+          top: 30px;
+          left: 30px; }
+          div.container div.chap div.men div.bottom div:nth-of-type(1) p:nth-of-type(1) {
+            color: #023047;
+            font-family: Raleway;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 120%; }
+          div.container div.chap div.men div.bottom div:nth-of-type(1) p:nth-of-type(2) {
+            color: #023047;
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%; }
+        div.container div.chap div.men div.bottom div:nth-of-type(2) {
+          position: relative;
+          right: 0;
+          width: 30%; }
+          div.container div.chap div.men div.bottom div:nth-of-type(2) img {
+            position: absolute;
+            top: -10px; }
+  div.container div.rast {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    top: 0; }
+    div.container div.rast div:nth-of-type(1) {
+      position: absolute;
+      top: -100px;
+      width: 100%;
+      padding-top: 100px;
+      box-sizing: border-box;
+      text-align: left; }
+      div.container div.rast div:nth-of-type(1) span {
+        color: #023047;
+        font-family: Raleway;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%; }
+    div.container div.rast div:nth-of-type(2) {
+      box-sizing: border-box;
+      position: absolute;
+      top: 100px;
+      text-align: left; }
+      div.container div.rast div:nth-of-type(2) span {
+        color: #023047;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%; }
+    div.container div.rast button {
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      width: 30%;
+      height: 59px;
+      padding: 12px 32px;
+      box-sizing: border-box;
+      background-color: var(--bgcolor_orange);
+      border: unset;
+      border-radius: 24px;
+      color: #fff;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      cursor: pointer; }
+
+/* end css container */
+/* start scss footer */
+footer {
+  width: 100%;
+  height: 638px;
+  background-color: #070917; }
+  footer div.koli {
+    padding-top: 70px;
+    padding-left: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap; }
+    footer div.koli div.one {
+      width: 50%;
+      margin-bottom: 45px; }
+      footer div.koli div.one h3 {
+        color: #da722c;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 200%;
+        text-align: left;
+        box-sizing: border-box; }
+      footer div.koli div.one h6 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        padding-left: 24px;
+        box-sizing: border-box; }
+    footer div.koli div.two {
+      width: 50%;
+      position: relative; }
+      footer div.koli div.two h3 {
+        color: #da722c;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 200%;
+        text-align: left; }
+      footer div.koli div.two h6 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        padding-left: 24px;
+        box-sizing: border-box; }
+    footer div.koli div.three {
+      width: 50%;
+      margin-bottom: 29px; }
+      footer div.koli div.three h3 {
+        color: #da722c;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 200%;
+        text-align: left; }
+      footer div.koli div.three h6 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin-bottom: 16px; }
+      footer div.koli div.three div {
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin-bottom: 26px; }
+        footer div.koli div.three div img:nth-of-type(2) {
+          margin-left: 28px; }
+      footer div.koli div.three div.input {
+        position: relative;
+        width: 150%; }
+        footer div.koli div.three div.input input[type="email"] {
+          width: 521px;
+          height: 39px;
+          border-radius: 8px;
+          border: unset; }
+          footer div.koli div.three div.input input[type="email"]::placeholder {
+            padding: 4px 0px 0px 27px;
+            box-sizing: border-box;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 200%;
+            opacity: 0.5; }
+        footer div.koli div.three div.input input[type="submit"] {
+          position: absolute;
+          right: 0;
+          top: 2px;
+          border-radius: 8px;
+          background: #023047;
+          border: unset;
+          padding: 1px 28px;
+          box-sizing: border-box;
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 200%; }
+  footer div.end {
+    padding-left: 116px;
+    box-sizing: border-box; }
+    footer div.end span {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 200%; }
+
+/* end scss footer */
+/* start css intro */
+div.intro {
+  width: 100%;
+  height: 1194px;
+  background-image: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center; }
+  div.intro div.header {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 60px; }
+    div.intro div.header header {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      gap: 175px; }
+      div.intro div.header header div.logo {
+        height: inherit; }
+        div.intro div.header header div.logo h3 {
+          color: #fff;
+          font-family: Raleway;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: normal; }
+      div.intro div.header header div.sm {
+        display: none; }
+      div.intro div.header header div.menu {
+        display: flex;
+        height: inherit;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 42px; }
+        div.intro div.header header div.menu h3 {
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 700; }
+        div.intro div.header header div.menu h4 {
+          background-color: var(--bgcolor_blue2);
+          border-radius: 24px;
+          padding: 12px 32px;
+          box-sizing: border-box;
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700; }
+  div.intro div.bottomheader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap; }
+    div.intro div.bottomheader div.left {
+      width: 100%;
+      height: 41.1%;
+      display: flex;
+      flex-flow: column nowrap;
+      padding-top: 167px;
+      padding-left: 100px;
+      box-sizing: border-box;
+      align-items: start; }
+      div.intro div.bottomheader div.left p:nth-of-type(1) {
+        color: #fff;
+        font-family: Raleway;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 125%; }
+      div.intro div.bottomheader div.left p:nth-of-type(2) {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        padding-top: 56px;
+        padding-bottom: 50px;
+        box-sizing: border-box; }
+      div.intro div.bottomheader div.left button {
+        background-color: var(--bgcolor_orange);
+        padding: 12px 32px;
+        box-sizing: border-box;
+        align-items: center;
+        border-radius: 24px;
+        border: unset;
+        width: 27%;
+        display: flex;
+        flex-flow: row nowrap;
+        cursor: pointer;
+        gap: 10px; }
+        div.intro div.bottomheader div.left button h6 {
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal; }
+    div.intro div.bottomheader div.miyani {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap; }
+      div.intro div.bottomheader div.miyani div.center {
+        width: 40%;
+        height: inherit;
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center; }
+        div.intro div.bottomheader div.miyani div.center div.top {
+          width: 206px;
+          height: 90px;
+          background-color: #fff;
+          border-radius: 24px;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          box-shadow: 10px 10px 5px #3b448f;
+          margin-top: 200px;
+          margin-left: 80px; }
+          div.intro div.bottomheader div.miyani div.center div.top p:nth-of-type(1) {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%; }
+          div.intro div.bottomheader div.miyani div.center div.top p {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%;
+            box-sizing: border-box; }
+        div.intro div.bottomheader div.miyani div.center div.bottom {
+          width: 186px;
+          height: 90px;
+          margin-top: 149px;
+          background-color: #fff;
+          border-radius: 24px;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          box-shadow: 10px 10px 5px #3b448f;
+          margin-left: 90px; }
+          div.intro div.bottomheader div.miyani div.center div.bottom p:nth-of-type(1) {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%; }
+          div.intro div.bottomheader div.miyani div.center div.bottom p {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%;
+            box-sizing: border-box; }
+      div.intro div.bottomheader div.miyani div.right {
+        width: 60%;
+        height: inherit;
+        justify-content: end; }
+        div.intro div.bottomheader div.miyani div.right img {
+          width: 100%; }
+
+/* end css intro */

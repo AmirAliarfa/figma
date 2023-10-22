@@ -1,0 +1,109 @@
+/* start css app */
+div.appsection {
+  width: 100%;
+  padding: 100px 148px;
+  box-sizing: border-box;
+  perspective: 800px;
+  div.app {
+    width: 100%;
+    div:nth-of-type(1) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 13px;
+      span {
+        color: #023047;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%;
+      }
+    }
+    div:nth-of-type(2) {
+      width: 100%;
+      text-align: center;
+      span {
+        color: #023047;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+      }
+    }
+    div.downlod {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      gap: 30px;
+      div.apple {
+        all: unset;
+        padding: 20px 31px;
+        box-sizing: border-box;
+        background-color: black;
+        width: 30%;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 14px;
+        transition: 500ms;
+        &:hover{
+          border-radius: 24px;
+          transition: 500ms;
+           div{
+            img{
+              transform: rotateZ(360deg);
+              transition: 2s;
+            }
+           }
+        }
+        div:nth-of-type(1) {
+          all: unset;
+        }
+        div:nth-of-type(2) {
+          color: #fff;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 250%;
+        }
+      }
+      div.samsung {
+        padding: 20px 31px;
+        box-sizing: border-box;
+        background-color: black;
+        width: 30%;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 14px;
+        transition: 500ms;
+        &:hover{
+          border-radius: 24px;
+          transition: 500ms;
+           div{
+            img{
+              transform: rotateZ(360deg);
+              transition: 2s;
+            }
+           }
+        }
+        div:nth-of-type(1){
+            all: unset;
+        }
+        div:nth-of-type(2) {
+          color: #fff;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 250%;
+        }
+      }
+    }
+  }
+}
+/* end css app */

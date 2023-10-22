@@ -1,0 +1,196 @@
+/* start css intro */
+div.intro {
+  width: 100%;
+  height: 1194px;
+  background-image: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  div.header {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 60px;
+    header {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      gap: 175px;
+      div.logo {
+        height: inherit;
+        h3 {
+          color: #fff;
+          font-family: Raleway;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: normal;
+        }
+      }
+      div.sm{
+        display: none;
+      }
+      div.menu {
+        display: flex;
+        height: inherit;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 42px;
+        h3 {
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 700;
+        }
+        h4 {
+          background-color: var(--bgcolor_blue2);
+          border-radius: 24px;
+          padding: 12px 32px;
+          box-sizing: border-box;
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  div.bottomheader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    div.left {
+      width: 100%;
+      height: 41.1%;
+      display: flex;
+      flex-flow: column nowrap;
+      padding-top: 167px;
+      padding-left: 100px;
+      box-sizing: border-box;
+      align-items: start;
+      p:nth-of-type(1) {
+        color: #fff;
+        font-family: Raleway;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 125%;
+      }
+      p:nth-of-type(2) {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        padding-top: 56px;
+        padding-bottom: 50px;
+        box-sizing: border-box;
+      }
+      button {
+        background-color: var(--bgcolor_orange);
+        padding: 12px 32px;
+        box-sizing: border-box;
+        align-items: center;
+        border-radius: 24px;
+        border: unset;
+        width: 27%;
+        display: flex;
+        flex-flow: row nowrap;
+        cursor: pointer;
+        gap: 10px;
+        h6 {
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+    }
+    div.miyani {
+      width: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      div.center {
+        width: 40%;
+        height: inherit;
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        div.top {
+          width: 206px;
+          height: 90px;
+          background-color: #fff;
+          border-radius: 24px;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          box-shadow: 10px 10px 5px rgba(59, 68, 143, 1);
+          margin-top: 200px;
+          margin-left: 80px;
+          p:nth-of-type(1) {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%;
+          }
+          p {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%;
+            box-sizing: border-box;
+          }
+        }
+        div.bottom {
+          width: 186px;
+          height: 90px;
+          margin-top: 149px;
+          background-color: #fff;
+          border-radius: 24px;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          box-shadow: 10px 10px 5px rgba(59, 68, 143, 1);
+          margin-left: 90px;
+          p:nth-of-type(1) {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%;
+          }
+          p {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%;
+            box-sizing: border-box;
+          }
+        }
+      }
+      div.right {
+        width: 60%;
+        height: inherit;
+        justify-content: end;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+/* end css intro */

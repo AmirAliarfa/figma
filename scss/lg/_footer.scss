@@ -1,0 +1,145 @@
+/* start scss footer */
+footer {
+  width: 100%;
+  height: 638px;
+  background-color: #070917;
+  div.koli {
+    padding-top: 70px;
+    padding-left: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    div.one {
+      width: 50%;
+      margin-bottom: 45px;
+      h3 {
+        color: #da722c;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 200%;
+        text-align: left;
+        box-sizing: border-box;
+      }
+      h6 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        padding-left: 24px;
+        box-sizing: border-box;
+      }
+    }
+    div.two {
+      width: 50%;
+      position: relative;
+      h3 {
+        color: #da722c;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 200%;
+        text-align: left;
+      }
+      h6 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        padding-left: 24px;
+        box-sizing: border-box;
+      }
+    }
+    div.three {
+      width: 50%;
+      margin-bottom: 29px;
+      h3 {
+        color: #da722c;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 200%;
+        text-align: left;
+      }
+      h6 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin-bottom: 16px;
+      }
+      div {
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin-bottom: 26px;
+        img:nth-of-type(2) {
+          margin-left: 28px;
+        }
+      }
+      div.input {
+        position: relative;
+        width: 150%;
+        input[type="email"] {
+          width: 521px;
+          height: 39px;
+          border-radius: 8px;
+          border: unset;
+          &::placeholder {
+            padding: 4px 0px 0px 27px;
+            box-sizing: border-box;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 200%;
+            opacity: 0.5;
+          }
+        }
+        input[type="submit"] {
+          position: absolute;
+          right: 0;
+          top: 2px;
+          border-radius: 8px;
+          background: #023047;
+          border: unset;
+          padding: 1px 28px;
+          box-sizing: border-box;
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 200%;
+        }
+      }
+    }
+  }
+  div.end {
+    padding-left: 116px;
+    box-sizing: border-box;
+    span {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 200%;
+    }
+  }
+}
+/* end scss footer */

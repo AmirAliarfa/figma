@@ -1,0 +1,65 @@
+:root{
+    --bgcolor_orange:rgba(218, 114, 44, 1);
+    --bgcolor_blue:rgba(5, 122, 218, 1);
+    --bgcolor_white:rgba(232, 247, 251, 1);
+    --bgcolor_blue2:rgba(2, 48, 71, 1);
+    --bgcolor_darkblue:rgba(7, 9, 23, 1);
+    --bgcolor_violet:rgba(111, 125, 251, 1);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: Raleway;
+    src: url(../font/Raleway/Raleway-Black.ttf);
+}
+@font-face {
+    font-family: Poppins;
+    src: url(../font/Poppins/Poppins-Italic.ttf);
+}
+@keyframes box-shadow {
+    0%{}
+    25%{
+        box-shadow:inset 0px 5px 15px white , inset 0px -5px 15px white;
+    }
+    50%{
+        box-shadow:inset 5px 0px 15px white , inset -5px 0px 15px white;
+    }
+    75%{
+        box-shadow:inset 0px 5px 15px white , inset 0px -5px 15px white;
+    }
+    100%{
+        box-shadow:inset 5px 0px 15px white , inset -5px 0px 15px white;
+    }
+}
+@keyframes box-shadow2 {
+    0%{}
+    25%{
+        box-shadow: 0px 5px 8px var(--bgcolor_white) ,  0px -5px 8px var(--bgcolor_white);
+    }
+    50%{
+        box-shadow: 5px 0px 8px var(--bgcolor_white) ,  -5px 0px 8px var(--bgcolor_white);
+    }
+    75%{
+        box-shadow: 0px 5px 8px var(--bgcolor_white) ,  0px -5px 8px var(--bgcolor_white);
+    }
+    100%{
+        box-shadow: 5px 0px 8px var(--bgcolor_white) ,  -5px 0px 8px var(--bgcolor_white);
+    }
+}
+@keyframes box-shadow3 {
+    0%{}
+    25%{
+        box-shadow: 0px 5px 8px var(--bgcolor_blue2) ,  0px -5px 8px var(--bgcolor_blue2);
+    }
+    50%{
+        box-shadow: 5px 0px 8px var(--bgcolor_blue2) ,  -5px 0px 8px var(--bgcolor_blue2);
+    }
+    75%{
+        box-shadow: 0px 5px 8px var(--bgcolor_blue2) ,  0px -5px 8px var(--bgcolor_blue2);
+    }
+    100%{
+        box-shadow: 5px 0px 8px var(--bgcolor_blue2) ,  -5px 0px 8px var(--bgcolor_blue2);
+    }
+}

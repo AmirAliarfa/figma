@@ -1,0 +1,798 @@
+/* start css intro */
+div.intro {
+  width: 100%;
+  height: 768px;
+  background-image: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center; }
+  div.intro div.header {
+    width: 100%;
+    height: 59px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 60px; }
+    div.intro div.header header {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      gap: 537px; }
+      div.intro div.header header div.logo {
+        height: inherit;
+        padding-left: 50px;
+        box-sizing: border-box;
+        cursor: pointer; }
+        div.intro div.header header div.logo:hover {
+          text-shadow: 1px 1px 5px var(--bgcolor_blue2);
+          transform: scale(1.1, 1.1); }
+        div.intro div.header header div.logo h3 {
+          color: #fff;
+          font-family: Raleway;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: normal; }
+      div.intro div.header header div.sm {
+        display: none; }
+      div.intro div.header header div.menu {
+        display: flex;
+        height: inherit;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 60px; }
+        div.intro div.header header div.menu h3 {
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 700;
+          cursor: pointer; }
+          div.intro div.header header div.menu h3:hover {
+            text-shadow: 1px 1px 5px var(--bgcolor_blue2);
+            transform: scale(1.1, 1.1); }
+        div.intro div.header header div.menu h4 {
+          background-color: var(--bgcolor_blue2);
+          border-radius: 24px;
+          cursor: pointer;
+          padding: 16px 32px;
+          box-sizing: border-box;
+          color: #fff;
+          font-family: Poppins;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700; }
+          div.intro div.header header div.menu h4:hover {
+            animation-name: box-shadow;
+            animation-duration: 1.2s;
+            animation-iteration-count: infinite; }
+  div.intro div.bottomheader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap; }
+    div.intro div.bottomheader div.left {
+      width: 40%;
+      height: inherit;
+      display: flex;
+      flex-flow: column nowrap;
+      padding-top: 123px;
+      padding-left: 123px;
+      box-sizing: border-box;
+      align-items: start; }
+      div.intro div.bottomheader div.left p:nth-of-type(1) {
+        color: #fff;
+        font-family: Raleway;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 125%; }
+        div.intro div.bottomheader div.left p:nth-of-type(1):hover::first-letter {
+          color: crimson;
+          font-size: 60px; }
+      div.intro div.bottomheader div.left p:nth-of-type(2) {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        padding-top: 19px;
+        padding-bottom: 78px;
+        box-sizing: border-box;
+        width: 125%; }
+      div.intro div.bottomheader div.left button {
+        background-color: var(--bgcolor_orange);
+        padding: 16px 32px;
+        box-sizing: border-box;
+        align-items: center;
+        border-radius: 24px;
+        border: unset;
+        width: 50%;
+        display: flex;
+        flex-flow: row nowrap;
+        cursor: pointer;
+        gap: 10px; }
+        div.intro div.bottomheader div.left button:hover {
+          animation-name: box-shadow2;
+          animation-duration: 1.2s;
+          animation-iteration-count: infinite; }
+          div.intro div.bottomheader div.left button:hover img {
+            filter: drop-shadow(1px 1px 1px black); }
+          div.intro div.bottomheader div.left button:hover h6 {
+            text-shadow: 1px 1px 1px black; }
+        div.intro div.bottomheader div.left button h6 {
+          color: #fff;
+          font-family: Poppins;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal; }
+    div.intro div.bottomheader div.miyani {
+      width: 60%;
+      display: flex;
+      flex-flow: row wrap; }
+      div.intro div.bottomheader div.miyani div.center {
+        width: 40%;
+        height: inherit;
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        padding: 52px 61px 18px 33px;
+        box-sizing: border-box; }
+        div.intro div.bottomheader div.miyani div.center div.top {
+          width: 206px;
+          height: 90px;
+          background-color: #fff;
+          border-radius: 24px;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          box-shadow: 10px 10px 5px #3b448f;
+          margin-top: 200px;
+          margin-left: 50px; }
+          div.intro div.bottomheader div.miyani div.center div.top:hover {
+            box-shadow: 1px 1px 5px white; }
+            div.intro div.bottomheader div.miyani div.center div.top:hover p:nth-of-type(1) {
+              transform: scale(2, 2);
+              text-shadow: 1px 1px 1px black; }
+          div.intro div.bottomheader div.miyani div.center div.top p:nth-of-type(1) {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%; }
+          div.intro div.bottomheader div.miyani div.center div.top p {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%;
+            box-sizing: border-box; }
+        div.intro div.bottomheader div.miyani div.center div.bottom {
+          width: 206px;
+          height: 90px;
+          margin-top: 149px;
+          background-color: #fff;
+          border-radius: 24px;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          box-shadow: 10px 10px 5px #3b448f; }
+          div.intro div.bottomheader div.miyani div.center div.bottom:hover {
+            box-shadow: 1px 1px 5px white; }
+            div.intro div.bottomheader div.miyani div.center div.bottom:hover p:nth-of-type(1) img {
+              transform: scale(2, 2);
+              filter: drop-shadow(2px 2px 2px black); }
+          div.intro div.bottomheader div.miyani div.center div.bottom p:nth-of-type(1) {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%; }
+          div.intro div.bottomheader div.miyani div.center div.bottom p {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%;
+            box-sizing: border-box; }
+      div.intro div.bottomheader div.miyani div.right {
+        width: 60%;
+        height: inherit;
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: end; }
+        div.intro div.bottomheader div.miyani div.right img {
+          width: 100%; }
+
+/* end css intro */
+/* start css container */
+div.container {
+  width: 100%;
+  height: 758px;
+  display: flex;
+  flex-flow: row wrap;
+  perspective: 800px; }
+  div.container div.chap {
+    width: 55%;
+    height: inherit;
+    display: flex;
+    flex-flow: column wrap;
+    position: relative;
+    z-index: 20; }
+    div.container div.chap div.khat {
+      width: 28px;
+      height: 546px;
+      background-color: var(--bgcolor_blue2);
+      border-radius: 24px;
+      position: absolute;
+      left: 203px;
+      top: 100px;
+      z-index: 1; }
+    div.container div.chap div.women {
+      width: 60%;
+      height: 222px;
+      border-radius: 24px;
+      position: absolute;
+      z-index: 2;
+      top: 135px;
+      left: 116px;
+      background-color: #fff;
+      box-shadow: 1px 1px 25px #023047; }
+      div.container div.chap div.women:hover {
+        transform: rotateY(360deg);
+        transition: 2s; }
+      div.container div.chap div.women div.top {
+        padding: 24px 32px;
+        box-sizing: border-box;
+        background-color: var(--bgcolor_violet);
+        border-radius: 24px; }
+        div.container div.chap div.women div.top p {
+          color: #fff;
+          font-family: Raleway;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 150%; }
+      div.container div.chap div.women div.bottom {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 106px;
+        padding: 0px 32px;
+        box-sizing: border-box;
+        position: relative;
+        top: 20px; }
+        div.container div.chap div.women div.bottom div:nth-of-type(1) {
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: flex-end; }
+          div.container div.chap div.women div.bottom div:nth-of-type(1) p:nth-of-type(1) {
+            color: #023047;
+            font-family: Raleway;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 120%; }
+          div.container div.chap div.women div.bottom div:nth-of-type(1) p:nth-of-type(2) {
+            color: #023047;
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%;
+            margin-top: 8px; }
+        div.container div.chap div.women div.bottom div:nth-of-type(2) {
+          position: relative; }
+          div.container div.chap div.women div.bottom div:nth-of-type(2) img {
+            top: -40px;
+            position: absolute; }
+    div.container div.chap div.men {
+      width: 442px;
+      height: 195px;
+      border-radius: 24px;
+      position: absolute;
+      left: 148px;
+      top: 407px;
+      box-shadow: 1px 1px 25px #023047;
+      background-color: #fff;
+      z-index: 2; }
+      div.container div.chap div.men:hover {
+        transform: rotateX(360deg);
+        transition: 2s; }
+      div.container div.chap div.men div.top {
+        width: 100%;
+        padding: 24px 32px;
+        box-sizing: border-box;
+        background-color: var(--bgcolor_orange);
+        border-radius: 24px; }
+        div.container div.chap div.men div.top p {
+          color: #fff;
+          font-family: Raleway;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 150%; }
+      div.container div.chap div.men div.bottom {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 106px;
+        position: relative; }
+        div.container div.chap div.men div.bottom div:nth-of-type(1) {
+          display: flex;
+          flex-flow: column wrap;
+          position: relative;
+          top: 30px;
+          left: 30px; }
+          div.container div.chap div.men div.bottom div:nth-of-type(1) p:nth-of-type(1) {
+            color: #023047;
+            font-family: Raleway;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 900;
+            line-height: 120%; }
+          div.container div.chap div.men div.bottom div:nth-of-type(1) p:nth-of-type(2) {
+            color: #023047;
+            font-family: Raleway;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 120%; }
+        div.container div.chap div.men div.bottom div:nth-of-type(2) {
+          position: relative;
+          width: 30%; }
+          div.container div.chap div.men div.bottom div:nth-of-type(2) img {
+            position: absolute;
+            top: -10px; }
+  div.container div.rast {
+    width: 45%;
+    height: inherit;
+    display: flex;
+    flex-flow: column nowrap; }
+    div.container div.rast div:nth-of-type(1) {
+      width: 100%;
+      padding: 159px 37px 43px 0px;
+      box-sizing: border-box; }
+      div.container div.rast div:nth-of-type(1):hover::first-letter {
+        color: crimson;
+        font-size: 90px; }
+      div.container div.rast div:nth-of-type(1) span {
+        color: #000;
+        font-family: Raleway;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%; }
+    div.container div.rast div:nth-of-type(2) span {
+      color: #000;
+      font-family: Poppins;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 200%; }
+    div.container div.rast button {
+      width: 182px;
+      height: 59px;
+      margin-top: 76px;
+      padding: 16px 32px;
+      box-sizing: border-box;
+      background-color: var(--bgcolor_orange);
+      border: unset;
+      border-radius: 24px;
+      color: #fff;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      cursor: pointer; }
+      div.container div.rast button:hover {
+        animation-name: box-shadow3;
+        animation-duration: 1.2s;
+        animation-iteration-count: infinite;
+        text-shadow: 1px 1px 1px black; }
+
+/* end css container */
+/* start css ps4 */
+div.ps4 {
+  width: 100%;
+  height: 785px;
+  background-color: var(--bgcolor_blue2); }
+  div.ps4 div.name {
+    width: 100%;
+    padding-top: 71px;
+    box-sizing: border-box;
+    margin-bottom: 55px; }
+    div.ps4 div.name p {
+      color: #fff;
+      text-align: center;
+      font-family: Raleway;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 120%; }
+  div.ps4 div.game {
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 73px; }
+    div.ps4 div.game div.chap {
+      width: 526px;
+      height: 418px;
+      border-radius: 24px;
+      background-color: #fff;
+      position: relative; }
+      div.ps4 div.game div.chap:hover div.img img {
+        top: -70px;
+        transition: 1s; }
+      div.ps4 div.game div.chap:hover div.text {
+        position: absolute;
+        top: 250px;
+        width: 100%;
+        height: 100%; }
+      div.ps4 div.game div.chap:hover div.khat {
+        height: 50px;
+        transition: 1s; }
+      div.ps4 div.game div.chap div.img {
+        width: inherit;
+        text-align: center;
+        position: relative; }
+        div.ps4 div.game div.chap div.img img {
+          width: 100%;
+          height: 100%;
+          transition: 1s;
+          position: relative;
+          top: -5px; }
+      div.ps4 div.game div.chap div.text {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        gap: 16px; }
+        div.ps4 div.game div.chap div.text span:nth-of-type(1) {
+          color: #023047;
+          font-family: Raleway;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 150%; }
+        div.ps4 div.game div.chap div.text span:nth-of-type(2) {
+          color: #023047;
+          font-family: Raleway;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 550%; }
+          div.ps4 div.game div.chap div.text span:nth-of-type(2) img {
+            width: 20px;
+            height: 20px; }
+      div.ps4 div.game div.chap div.khat {
+        left: calc(50% - 80% / 2);
+        width: 80%;
+        height: 8px;
+        position: absolute;
+        bottom: 0px;
+        background-color: black;
+        transition: 1s; }
+    div.ps4 div.game div.rast {
+      width: 526px;
+      height: 418px;
+      border-radius: 24px;
+      background-color: #fff;
+      position: relative; }
+      div.ps4 div.game div.rast:hover div.img img {
+        top: -70px;
+        transition: 1s; }
+      div.ps4 div.game div.rast:hover div.text {
+        position: absolute;
+        top: 250px;
+        width: 100%;
+        height: 100%; }
+      div.ps4 div.game div.rast:hover div.khat {
+        height: 50px;
+        transition: 1s; }
+      div.ps4 div.game div.rast div.img {
+        width: inherit;
+        text-align: center;
+        position: relative; }
+        div.ps4 div.game div.rast div.img img {
+          width: 100%;
+          height: 100%;
+          position: relative;
+          top: -5px;
+          transition: 1s; }
+      div.ps4 div.game div.rast div.text {
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 16px;
+        padding: 0px 32px 30px 32px;
+        box-sizing: border-box; }
+        div.ps4 div.game div.rast div.text span:nth-of-type(1) {
+          color: #023047;
+          font-family: Raleway;
+          font-size: 30px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: 150%; }
+        div.ps4 div.game div.rast div.text span:nth-of-type(2) {
+          color: #023047;
+          font-family: Raleway;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 900; }
+          div.ps4 div.game div.rast div.text span:nth-of-type(2) img {
+            width: 20px;
+            height: 20px; }
+      div.ps4 div.game div.rast div.khat {
+        left: calc(50% - 80% / 2);
+        width: 80%;
+        height: 8px;
+        position: absolute;
+        bottom: 0px;
+        background-color: black;
+        transition: 1s; }
+  div.ps4 div.butom {
+    width: 90%;
+    text-align: right;
+    margin-top: 40px; }
+    div.ps4 div.butom button {
+      padding: 16px 32px;
+      box-sizing: border-box;
+      background-color: var(--bgcolor_orange);
+      border: unset;
+      border-radius: 24px;
+      color: #fff;
+      font-family: Poppins;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      cursor: pointer; }
+      div.ps4 div.butom button:hover {
+        animation-name: box-shadow;
+        animation-duration: 1.2s;
+        animation-iteration-count: infinite;
+        text-shadow: 1px 1px 1px black; }
+
+/* end css ps4 */
+/* start css app */
+div.appsection {
+  width: 100%;
+  padding: 100px 148px;
+  box-sizing: border-box;
+  perspective: 800px; }
+  div.appsection div.app {
+    width: 100%; }
+    div.appsection div.app div:nth-of-type(1) {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 13px; }
+      div.appsection div.app div:nth-of-type(1) span {
+        color: #023047;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 120%; }
+    div.appsection div.app div:nth-of-type(2) {
+      width: 100%;
+      text-align: center; }
+      div.appsection div.app div:nth-of-type(2) span {
+        color: #023047;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%; }
+    div.appsection div.app div.downlod {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      gap: 30px; }
+      div.appsection div.app div.downlod div.apple {
+        all: unset;
+        padding: 20px 31px;
+        box-sizing: border-box;
+        background-color: black;
+        width: 30%;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 14px;
+        transition: 500ms; }
+        div.appsection div.app div.downlod div.apple:hover {
+          border-radius: 24px;
+          transition: 500ms; }
+          div.appsection div.app div.downlod div.apple:hover div img {
+            transform: rotateZ(360deg);
+            transition: 2s; }
+        div.appsection div.app div.downlod div.apple div:nth-of-type(1) {
+          all: unset; }
+        div.appsection div.app div.downlod div.apple div:nth-of-type(2) {
+          color: #fff;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 250%; }
+      div.appsection div.app div.downlod div.samsung {
+        padding: 20px 31px;
+        box-sizing: border-box;
+        background-color: black;
+        width: 30%;
+        display: flex;
+        flex-flow: row nowrap;
+        gap: 14px;
+        transition: 500ms; }
+        div.appsection div.app div.downlod div.samsung:hover {
+          border-radius: 24px;
+          transition: 500ms; }
+          div.appsection div.app div.downlod div.samsung:hover div img {
+            transform: rotateZ(360deg);
+            transition: 2s; }
+        div.appsection div.app div.downlod div.samsung div:nth-of-type(1) {
+          all: unset; }
+        div.appsection div.app div.downlod div.samsung div:nth-of-type(2) {
+          color: #fff;
+          text-align: center;
+          font-family: Poppins;
+          font-size: 24px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 250%; }
+
+/* end css app */
+/* start scss footer */
+footer {
+  width: 100%;
+  height: 409px;
+  background-color: #070917; }
+  footer div.koli {
+    padding: 70px 0px;
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row nowrap; }
+    footer div.koli div.one {
+      width: 30%; }
+      footer div.koli div.one h3 {
+        color: #da722c;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 200%;
+        text-align: left;
+        padding-left: 116px;
+        box-sizing: border-box;
+        cursor: pointer; }
+        footer div.koli div.one h3:hover {
+          font-size: 22px; }
+      footer div.koli div.one h6 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        padding-left: 140px;
+        box-sizing: border-box;
+        cursor: pointer; }
+        footer div.koli div.one h6:hover {
+          font-size: 20px; }
+    footer div.koli div.two {
+      width: 20%;
+      position: relative; }
+      footer div.koli div.two h3 {
+        color: #da722c;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 200%;
+        text-align: left;
+        cursor: pointer; }
+        footer div.koli div.two h3:hover {
+          font-size: 22px; }
+      footer div.koli div.two h6 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        padding-left: 20px;
+        box-sizing: border-box;
+        cursor: pointer; }
+        footer div.koli div.two h6:hover {
+          font-size: 20px; }
+    footer div.koli div.three {
+      width: 40%; }
+      footer div.koli div.three h3 {
+        color: #da722c;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 200%;
+        text-align: left;
+        cursor: pointer; }
+        footer div.koli div.three h3:hover {
+          font-size: 22px; }
+      footer div.koli div.three h6 {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin-bottom: 16px;
+        cursor: pointer; }
+        footer div.koli div.three h6:hover {
+          font-size: 20px; }
+      footer div.koli div.three div {
+        padding-left: 20px;
+        box-sizing: border-box;
+        margin-bottom: 26px;
+        cursor: pointer; }
+        footer div.koli div.three div img:nth-of-type(2) {
+          margin-left: 28px; }
+      footer div.koli div.three div.input {
+        position: relative; }
+        footer div.koli div.three div.input input[type="email"] {
+          width: 521px;
+          height: 39px;
+          border-radius: 8px;
+          border: unset; }
+          footer div.koli div.three div.input input[type="email"]:focus {
+            outline: 5px solid var(--bgcolor_blue); }
+          footer div.koli div.three div.input input[type="email"]::placeholder {
+            padding: 4px 0px 0px 27px;
+            box-sizing: border-box;
+            color: #000;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 200%;
+            opacity: 0.5; }
+        footer div.koli div.three div.input input[type="submit"] {
+          position: absolute;
+          right: 6px;
+          top: 2px;
+          border-radius: 8px;
+          background: #023047;
+          border: unset;
+          padding: 1px 28px;
+          box-sizing: border-box;
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 200%; }
+          footer div.koli div.three div.input input[type="submit"]:hover {
+            animation-name: box-shadow3;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite; }
+  footer div.end {
+    padding-left: 116px;
+    box-sizing: border-box; }
+    footer div.end span {
+      color: #fff;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 200%; }
+
+/* end scss footer */

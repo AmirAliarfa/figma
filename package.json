@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "name": "figma",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "sass":"node-sass -w scss/main.scss -o main/ -r ",
+    "sass-setting":"node-sass -w scss/setting.scss -o main/ -r",
+    "sass-xl":"node-sass -w scss/xl/xl.scss -o main/xl/ -r",
+    "sass-lg":"node-sass -w scss/lg/lg.scss -o main/lg/ -r",
+    "sass-sm":"node-sass -w scss/sm/sm.scss -o main/sm/ -r"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

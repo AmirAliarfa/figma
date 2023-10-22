@@ -1,0 +1,250 @@
+/* start css intro */
+div.intro {
+  width: 100%;
+  height: 896px;
+  background-image: linear-gradient(180deg, #6f7dfb 0%, #26308c 100%);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  div.header {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 60px;
+    header {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 248px;
+      div.logo {
+        height: inherit;
+        h3 {
+          color: #fff;
+          font-family: Raleway;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 900;
+          line-height: normal;
+        }
+      }
+      #close,
+      #menu {
+        display: none;
+      }
+      div.sm {
+        label {
+          div {
+            width: 30px;
+            height: 5px;
+            background-color: rgba(2, 48, 71, 1);
+            border-radius: 5px;
+            margin-bottom: 1px;
+          }
+        }
+        div.menuuu {
+          display: none;
+          position: relative;
+          &#close:checked ~ div.menuuu {
+            display: none;
+          }
+          label {
+            position: absolute;
+            right: 42px;
+            top: 20px;
+          }
+        }
+        #menu:checked ~ div.menuuu {
+          position: absolute;
+          display: flex;
+          flex-flow: column nowrap;
+          gap: 32px;
+          justify-content: center;
+          align-items: center;
+          width: 100%;
+          left: 0;
+          top: 0;
+          height: 100vh;
+          background-color: #070917;
+          p {
+            color: #fff;
+            font-family: Poppins;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+          p:nth-last-of-type(1) {
+            color: #fff;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            display: inline-flex;
+            padding: 12px 32px;
+            border-radius: 24px;
+            background: #da722c;
+          }
+        }
+      }
+      div.menu {
+        display: none;
+        h3 {
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 700;
+        }
+        h4 {
+          background-color: var(--bgcolor_blue2);
+          border-radius: 24px;
+          padding: 12px 32px;
+          box-sizing: border-box;
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+  div.bottomheader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    div.left {
+      width: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      padding: 58px 32px 0px 32px;
+      box-sizing: border-box;
+      align-items: start;
+      p:nth-of-type(1) {
+        color: #fff;
+        font-family: Raleway;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 125%;
+        margin-bottom: 16px;
+      }
+      p:nth-of-type(2) {
+        color: #fff;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 200%;
+        margin-bottom: 34px;
+      }
+      button {
+        background-color: var(--bgcolor_orange);
+        padding: 12px 32px;
+        box-sizing: border-box;
+        align-items: center;
+        border-radius: 24px;
+        border: unset;
+        width: 47%;
+        display: flex;
+        flex-flow: row nowrap;
+        cursor: pointer;
+        gap: 10px;
+        h6 {
+          color: #fff;
+          font-family: Poppins;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+        }
+      }
+    }
+    div.miyani {
+      width: 100%;
+      display: flex;
+      flex-flow: row nowrap;
+      div.center {
+        width: 30%;
+        z-index: 2;
+        height: inherit;
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        div.top {
+          width: 182px;
+          height: 75px;
+          background-color: #fff;
+          border-radius: 24px;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          box-shadow: 10px 10px 5px rgba(59, 68, 143, 1);
+          margin-top: 146px;
+          margin-left: 29px;
+          p:nth-of-type(1) {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%;
+          }
+          p {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%;
+            box-sizing: border-box;
+          }
+        }
+        div.bottom {
+          width: 160px;
+          height: 75px;
+          margin-top: 57px;
+          background-color: #fff;
+          border-radius: 24px;
+          display: flex;
+          flex-flow: column nowrap;
+          justify-content: center;
+          box-shadow: 10px 10px 5px rgba(59, 68, 143, 1);
+          margin-left: 32px;
+          box-sizing: border-box;
+          p:nth-of-type(1) {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 36px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 125%;
+          }
+          p {
+            color: #023047;
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 125%;
+            box-sizing: border-box;
+          }
+        }
+      }
+      div.right {
+        width: 80%;
+        box-sizing: border-box;
+        justify-content: end;
+        overflow: hidden;
+        img {
+          width: 118.5%;
+        }
+      }
+    }
+  }
+}
+/* end css intro */
